@@ -30,8 +30,8 @@ WriteMakefile(
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/Dancer2-Plugin-Res.git',
-                web  => 'https://github.com/Manwar/Dancer2-Plugin-Res',
+                url  => 'https://github.com/manwar/Dancer2-Plugin-Res.git',
+                web  => 'https://github.com/manwar/Dancer2-Plugin-Res',
             },
         }})
      : ()

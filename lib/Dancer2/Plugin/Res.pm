@@ -1,6 +1,6 @@
 package Dancer2::Plugin::Res;
 
-$Dancer2::Plugin::Res::VERSION   = '0.01';
+$Dancer2::Plugin::Res::VERSION   = '0.02';
 $Dancer2::Plugin::Res::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Dancer2::Plugin::Res - Dancer2 add-on for setting status/response.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -23,14 +23,14 @@ use Dancer2::Plugin;
 =head1 DESCRIPTION
 
 This is an honest attempt to make L<Dancer::Plugin::Res> to be  Dancer2 friendly.
-It should behave same as its twin as nothing has changed in functionality.
+It should behave same as it's twin as nothing has changed in functionality.
 
-I needed a Dancer2 compatible verion of L<Dancer::Plugin::Res> for  my other work
-available on L<github|https://github.com/Manwar/Dancer2-Cookbook>.
+I needed a Dancer2 compatible version of L<Dancer::Plugin::Res> for my other work
+available on L<github|https://github.com/manwar/Dancer2-Cookbook>.
 
 =head1 SYNOPSIS
 
-As used in L<Dancer2 Cookbook|https://github.com/Manwar/Dancer2-Cookbook> project
+As used in L<Dancer2 Cookbook|https://github.com/manwar/Dancer2-Cookbook> project
 
     use Dancer2::Plugin::Res;
     use Dancer2::Plugin::Captcha;
@@ -71,7 +71,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Dancer2-Plugin-Res>
+L<https://github.com/manwar/Dancer2-Plugin-Res>
 
 =head1 ACKNOWLEDGEMENTS
 
