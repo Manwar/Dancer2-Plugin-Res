@@ -17,7 +17,6 @@ use 5.006;
 use strict; use warnings;
 use Data::Dumper;
 
-use Dancer2 ':syntax';
 use Dancer2::Plugin;
 
 =head1 DESCRIPTION
