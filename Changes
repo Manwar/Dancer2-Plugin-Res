@@ -1,5 +1,9 @@
 Revision history for Dancer2::Plugin::Res
 
+0.04  Mon Mar 21 11:50:00 2016
+      - Merged in GitHub PR #2, thanks to SysPete.
+      - Updated copyright year information in the pod document.
+
 0.03  Thu Jan 21 11:30:00 2016
       - Merged in GitHub PR #1, thanks to SysPete.
       - Upgraded pre-reqs Test::More to v0.94 as the test added by SysPete using 'subtest'
