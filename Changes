@@ -1,5 +1,8 @@
 Revision history for Dancer2::Plugin::Res
 
+0.06  Tue Sep 20 10:45:00 2016
+      - Added unit test scripts (t/meta-json.t and t/meta-yml.t).
+
 0.05  Sun Sep 11 08:15:00 2016
       - Added key 'provides' to the Makefile.PL script.
 
