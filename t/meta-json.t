@@ -5,6 +5,8 @@ use strict; use warnings;
 use Dancer2::Plugin::Res;
 use Test::More;
 
+plan skip_all => 'AUTHOR_TESTING required for this test' unless $ENV{AUTHOR_TESTING};
+
 eval "use Test::CPAN::Meta::JSON";
 plan skip_all => "Test::CPAN::Meta::JSON required for testing MYMETA.json" if $@;
 

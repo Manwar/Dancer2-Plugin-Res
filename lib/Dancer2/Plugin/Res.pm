@@ -1,6 +1,6 @@
 package Dancer2::Plugin::Res;
 
-$Dancer2::Plugin::Res::VERSION   = '0.06';
+$Dancer2::Plugin::Res::VERSION   = '0.07';
 $Dancer2::Plugin::Res::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Dancer2::Plugin::Res - Dancer2 add-on for setting status/response.
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 

@@ -5,6 +5,8 @@ use strict;
 use warnings FATAL => 'all';
 use Test::More;
 
+plan skip_all => 'AUTHOR_TESTING required for this test' unless $ENV{AUTHOR_TESTING};
+
 # Ensure a recent version of Test::Pod
 my $min_tp = 1.22;
 eval "use Test::Pod $min_tp";
